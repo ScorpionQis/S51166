@@ -1,0 +1,11 @@
+def augment_function(function, decorators):
+    
+def decorators():
+    multiply_output(multiple_by_three)
+    
+def add_numbers(a,b):
+    return a+b
+
+decorated_function = augment_function(add_number, [print_arguments, multiply_output])
+x = decorated_function(3, 4)
+print (x)
