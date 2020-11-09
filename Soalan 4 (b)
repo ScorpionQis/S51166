@@ -1,0 +1,8 @@
+def multiply_by_three(x):
+    return x*3
+
+def multiply_output(function):
+    number_to_multiply = 2
+    return function(number_to_multiply)
+
+multiply_output(multiply_by_three)*10
